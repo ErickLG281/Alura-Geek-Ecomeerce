@@ -1,0 +1,17 @@
+{
+  "name": "alurageek",
+  "version": "1.0.0",
+  "description": "challeng",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "erick lozano",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^1.0.0-alpha.23"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
