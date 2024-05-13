@@ -1,11 +1,11 @@
 async function listarProductos() {
-  const conexion = await fetch("http://localhost:3001/productos");
+  const conexion = await fetch("https://my-json-server.typicode.com/ErickLG281/api_alurageek/productos");
   const conexionConvertida = conexion.json();
   return conexionConvertida;
 }
 
 async function enviarProducto(nombre, precio, imagen) {
-  const conexion = await fetch("http://localhost:3001/productos", {
+  const conexion = await fetch("https://my-json-server.typicode.com/ErickLG281/api_alurageek/productos", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
@@ -21,7 +21,7 @@ async function enviarProducto(nombre, precio, imagen) {
 
 async function eliminarProducto(id) {
   try {
-    const conexion = await fetch(`http://localhost:3001/productos/${id}`, {
+    const conexion = await fetch(`https://my-json-server.typicode.com/ErickLG281/api_alurageek/productos/${id}`, {
       method: "DELETE"
     });
 
