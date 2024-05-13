@@ -9,7 +9,8 @@
   "author": "erick lozano",
   "license": "ISC",
   "dependencies": {
-    "json-server": "^1.0.0-alpha.23"
+    "json-server": "^1.0.0-alpha.23",
+    "npm-run-all": "^4.1.5"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.3"

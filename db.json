@@ -1,0 +1,19 @@
+{
+  "productos": [
+    
+    {
+      "id": "1",
+      "nombre": "The Blaze",
+      "precio": "10.00",
+      "imagen": "https://images.squarespace-cdn.com/content/v1/5b1efa47af2096155c79b1b8/1543272324275-Z9VCWDFFWTU918KPEKVP/DSC09910.JPG"
+    },
+    
+   
+    {
+      "id": "0bfa",
+      "nombre": "Oyasumi",
+      "precio": "56.00",
+      "imagen": "https://doiniku.files.wordpress.com/2016/07/oyasumi-punpun-4344741.jpg?w=640"
+    }
+  ]
+}
